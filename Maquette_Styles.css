@@ -7,13 +7,12 @@ margin:auto;
 footer
 {
   width:1000px;
-  margin-left: -100px;
-}
-
-footer
-{
-  width:1000px;
-  margin-left: -100px;
+  margin-left: -120px;
+  padding-left: 25px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  background: #EFEFEF;
 }
 
 SECTION {
@@ -21,7 +20,7 @@ SECTION {
   padding-left:10px;
   display: block;
   float:right;
-  margin
+  margin: 0 1.5%;
 }
 
 Aside {
@@ -34,112 +33,139 @@ Aside {
 }
 
 H1 {
-  font-family: 'Bitstream Charter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: bold;
   margin-left:100px;
 }
 
 h2 {
-  font-family: 'DejaVu Sans Mono', sans-serif;
+  font-family: 'Marcellus', sans-serif;
   margin-left:100px;
   color:#679EC1;
   font-weight: lighter;
 }
 
 h3 {
-  font-family: 'DejaVu Sans Mono', sans-serif;
+  font-family: 'Marcellus', sans-serif;
   margin-left:30px;
 }
 
 p {
-  font-family: 'Bitstream Charter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1,5em;
   margin-left:30px;
-  text-align: justify;
+  text-align:justify;
 }
 
+/* used for separate
+Aside and article (global text)*/
+.DivArticle{
+  display:block;
+  float: left;
+  width:72%;
+}
+
+/* used for 'Y' letter
+for introduction global text */
+.Yglyphe{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100px;
+  background-color: black;
+  padding-left:50px;
+  padding-right:50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius:50%;
+  color:white;
+  float:left;
+}
+
+/* used for underlined words
+global text */
 .pUnder {
-  font-family: 'Bitstream Charter', sans-serif;
-  font-size: 16px;
-  line-height: 1,5em;
   text-decoration: underline;
-  text-align: justify;
-  margin-left:30px;
 }
 
+/* used for bold words
+global text */
 .pBold {
-  font-family: 'Bitstream Charter', sans-serif;
-  font-size: 16px;
-  line-height: 1,5em;
   font-weight: bold;
-  text-align: justify;
-  margin-left:30px;
 }
 
+/* used for blockquote
+global text */
 .QuoteBlock {
-  font-family: 'Bitstream Charter', sans-serif;
-  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
   line-height: 1.5em;
-  text-align: center;
+  text-align: left;
   margin-left:40px;
   margin-right:40px;
 }
 
+/* used for bloc in footer */
 .bloc1_footer {
-  font-family: 'DejaVu Sans Mono', sans-serif;
+  font-family: 'Marcellus', sans-serif;
   font-size: 14px;
   font-weight: bold;
-  margin-left:20px;
+  margin-left:10px;
   color:#679EC1;
 }
 
+/* used for bloc in footer */
 .bloc2_footer {
-  font-family: 'Bitstream Charter', sans-serif;
-  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
   font-weight: bold;
-  margin-left:20px;
+  margin-left:10px;
+  margin-right: 10px;
   color:black;
 }
 
+/* used for caption of
+main picture */
 .creditImg {
-  font-family: 'Bitstream Charter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   margin-left:2px;
   color:#679EC1;
   text-align: center;
 }
 
-/* float pour positionner */
-.boxH{
-  display:flex;
-  justify-content: flex-end;
-}
-
-.pushH{
-  margin-left: auto;
-}
-
+/* used for bouton Follow */
 .follow {
-  color:#679EC1;
-  border: 3px solid #679EC1;
+  color:#DC81E2;
+  border: 3px solid #DC81E2;
   border-radius: 15px;
   box-sizing:border-box;
   text-align: center;
   font-size: 14px;
 }
 
+/* used for lien Sign in
+header */
+.follow0 {
+  color:#DC81E2;
+  font-family: 'Marcellus', sans-serif;
+  font-size: 14px;
+  padding-left: 2px;
+}
+
+/* used for aside and divers blocks  */
 .follow1 {
   color:#679EC1;
-  font-family: 'DejaVu Sans Mono', sans-serif;
+  font-family: 'Marcellus', sans-serif;
   font-size: 12px;
   padding-left: 2px;
 }
 
 .follow2 {
   color:black;
-  font-family: 'Bitstream Charter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: bold;
   text-align: left;
@@ -148,7 +174,7 @@ p {
 
 .follow3 {
   color:black;
-  font-family: 'Bitstream Charter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   text-align: left;
   padding-left: 2px;
@@ -182,7 +208,7 @@ p {
 }
 
 .tableau_li{
-  font-family: 'DejaVu Sans Mono', sans-serif;
+  font-family: 'Marcellus', sans-serif;
   font-size: 16px;
   line-height: 1,5em;
   column-width:auto;
@@ -190,7 +216,7 @@ p {
 }
 
 .tableau_liBas {
-  font-family: 'DejaVu Sans Mono', sans-serif;
+  font-family: 'Marcellus', sans-serif;
   font-size: 12px;
   color: #A0A0A0;
   line-height: 2em;
@@ -201,9 +227,11 @@ p {
 
 .boxNav {
   float: left;
+  background-color: white;
   box-sizing: border-box;
   width: 300;
   padding: 2px;
+  box-shadow: 10px 5px 5px #A0A0A0;
   color:#679EC1;
   border: 2px solid #679EC1;
   border-radius: 12px;
@@ -222,17 +250,15 @@ p {
 .box {
   float: left;
   width: 33.33%;
-  /* border: 2px solid #679EC1;
-  border-radius: 15px;
-  box-sizing:border-box;*/
 }
 
 .boxB {
   float: left;
   width: 50%;
-  /* border: 2px solid #679EC1;
-  border-radius: 15px;
-  box-sizing:border-box;*/
+}
+
+.imgFooter {
+  border-radius:12px;
 }
 
 .round {
@@ -294,7 +320,7 @@ p {
 	padding: 0; margin: 0;
 	text-align: center; /* centrer le texte */
   text-decoration: none;
-  font-family: 'DejaVu Sans Mono', sans-serif;
+  font-family: 'Marcellus', sans-serif;
   font-size: 16px;
   color:#679EC1;
   line-height: 0,5em;

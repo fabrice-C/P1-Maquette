@@ -1,0 +1,79 @@
+10/07/2019
+>>> Mise à jour des fichiers HTML et CSS
+
+>>> Directive de Yann Bouilhac : le 'Y' ne doit pas être une image. Saisir le 'Y' avec mise en page sous CSS. Mise à jour selon nouvelles directives.
+
+>>> correspondance des polices de caractères : mise à jour des polices avec Marcellus et Open Sans (polices Google fonts trouvés avec travaux du 05/07/2019 avec Cindy Blanchard)
+
+>>> mise à jour couleurs des bordures
+
+>>> Après relecture de la maquette, mise à jour du 'Footer' : arrière-plan, box avec bords arrondis et ombre portée. Mise à jour HTML et CSS.
+
+>>> création des commentaires dans HTML et CSS
+
+
+
+09/07/2019
+>>> Transfert images et texte (upload from Simplon line)
+
+>>> Préparation Glyphe 'Y' avec cercle noir sous Inskape
+
+>>> préparation element 'Aside'
+> Captures symboles de l'Aside non présents dans l'énoncé 
+
+>>> estimation de la taille de 'Body'
+
+>>> Préparation des 2 blocs 'Harry Guinness' et 'OneZero'
+avec détail et mise en page
+
+voir fichier PDF : TP1-Maquette-20190709.pdf
+
+>>> Mise à jour et mise en page des fichiers HTML et CSS + Tests et essais
+
+
+
+08/07/2019
+> Lecture de l'énoncé et descriptif sommaire du projet 1 : Découper une maquette en HTML et CSS.
+> Livrables : lien vers un dépôt GitHub contenant l'ensemble du projet
+
+> Lecture de l'énoncé du brief :
+"Énoncé du brief
+
+A partir de la maquette fournie au format PNG, vous devez réaliser la page web correspondante en HTML et CSS (pas de Javascript).
+
+Vous respecterez entre autres (mais de manière non exhaustive) :  
+
+    la typographie  (les polices utilisées sont Georgia et Encore Sans)
+    les images  
+    la position des blocs  
+    le contenu
+
+La structure HTML du code n'est pas imposée et chacun est libre de définir la sienne.
+
+Vous ne devez pas modifier la forme des images fournies (utilisez uniquement les styles).
+
+Vous ne devez utiliser aucun framework.
+
+Le site ne doit pas être responsive.
+
+Vous devez organiser et prioriser votre développement en fonction des parties qui vous paraissent les plus accessibles. Vos différents commit représenteront cette organisation et votre évolution étape par étape tout au long du projet.
+
+Le projet est à réaliser seul.
+
+Points évalués :  
+
+    le résultat doit être le plus proche possible de la maquette (mais pas au pixel près) ;  
+    le code HTML doit structurer le contenu ;  
+    le code CSS doit réaliser la mise en forme ;  
+    l’utilisation des classes et des ids ;  
+    la capacité à organiser son travail ;  
+    l’utilisation de git.
+
+L'évaluation de votre travail se fera sous la forme d'une code review par groupe de 3 : les 2 autres membres du groupe regarderont le code fourni sur votre dépôt GitHub et vérifieront de manière objective les points demandés."
+
+>>> Préparation du "Wireframe" et guides, conseils divers
+voir fichier PDF : TP1-Maquette-20190708.pdf
+
+>>> Création du fichier HTML et CSS
+
+
