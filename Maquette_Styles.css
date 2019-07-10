@@ -155,7 +155,8 @@ header */
   padding-left: 2px;
 }
 
-/* used for aside and divers blocks  */
+/* used for aside and
+divers blocks, blocks footer */
 .follow1 {
   color:#679EC1;
   font-family: 'Marcellus', sans-serif;
@@ -180,6 +181,8 @@ header */
   padding-left: 2px;
 }
 
+/* used for aside pour afficher
+une séparation (trait)*/
 .followAside {
   border-bottom: 1px;
   border-bottom-style: solid;
@@ -187,11 +190,7 @@ header */
   border-bottom-width: medium;
 }
 
-.flotte {
-  float:left;
-  padding-right: 15px;
-}
-
+/* used for navigation haut */
 .MiddleNav {
   color:#679EC1;
   font-size: 14px;
@@ -199,14 +198,12 @@ header */
   text-align: center;
 }
 
+/* used for box (size) */
 * {
   box-sizing: border-box;
 }
 
-.container {
-  width:100%;
-}
-
+/* used for tables */
 .tableau_li{
   font-family: 'Marcellus', sans-serif;
   font-size: 16px;
@@ -215,6 +212,7 @@ header */
   text-align: left;
 }
 
+/* used for tables just before footer */
 .tableau_liBas {
   font-family: 'Marcellus', sans-serif;
   font-size: 12px;
@@ -225,6 +223,7 @@ header */
   background-color: #CCFFFF;
 }
 
+/* used for footer boxes */
 .boxNav {
   float: left;
   background-color: white;
@@ -239,24 +238,20 @@ header */
   -moz-border-radius: 12px;
 }
 
-.boxInfo {
-  border: 2px solid #679EC1;
-  border-left:2px solid #679EC1;
-  border-right: 2px solid #679EC1;
-  border-bottom: 2px solid #679EC1;
-  border-radius: 15px;
-}
-
+/* used for boxes (3)in footer */
 .box {
   float: left;
   width: 33.33%;
 }
 
+/* used for boxes (2) just before footer */
 .boxB {
   float: left;
   width: 50%;
 }
 
+/* used for image in boxes in footer
+bords arrondis*/
 .imgFooter {
   border-radius:12px;
 }
@@ -268,95 +263,20 @@ header */
   margin:0 auto;
 }
 
+/* used for creation of blocks (3 and 2)
+before footer and in footer */
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.BorderB {
-  border-bottom: solid;
-  border-bottom-color: black;
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: #c0ded9;
-    color:#3b3a30;
-}
-
-/* image ronde pour visage */
-.roundedImage, .roundedImageShadow, .roundedImageBorder{
+/* image ronde pour photo Harry */
+.roundedImage {
 	overflow:hidden;
 	-webkit-border-radius:50px;
 	-moz-border-radius: 50%;
 	border-radius:50px;
 	width:80px;
 	height:80px;
-}
-
-.roundedImage80 {
-	overflow:hidden;
-	-webkit-border-radius:50px;
-	-moz-border-radius: 50%;
-	border-radius:50px;
-	width:80px;
-	height:80px;
-}
-
-.roundedImageShadow{
-	-moz-box-shadow: 0px 0px 10px #343434;
-	-webkit-box-shadow: 0px 0px 10px #343434;
-	-o-box-shadow: 0px 0px 10px #343434;
-	box-shadow: 0px 0px 10px #343434;
-}
-
-.roundedImageBorder{
-	border: 1px solid #006699;
-}
-
-/* navigation */
-#nav1 {
-	padding: 0; margin: 0;
-	text-align: center; /* centrer le texte */
-  text-decoration: none;
-  font-family: 'Marcellus', sans-serif;
-  font-size: 16px;
-  color:#679EC1;
-  line-height: 0,5em;
-}
-#nav1 li {
-	display: inline;
-	list-style: none;
-}
-#nav1 a {
-	display:inline-block;
-	margin: 0 30px;
-  text-decoration: none;
-}
-
-#nav
-{
-   margin:0;
-   padding:0;
-   background:#808259 url('nav_bg.jpg') 0 0 repeat-x;
-   float:left;
-   width:100%;
-   border:1px solid #42432d;
-   border-width:1px 0;
-}
-
-#nav a:link, #nav a:visited
-{
-   color:#000;
-   background:#b2b580;
-   padding:20px 40px 4px 10px;
-   float:left;
-   width:auto;
-   border-right:1px solid #42432d;
-}
-
-#nav li:first-child a
-{
-   border-left:1px solid #42432d;
 }
