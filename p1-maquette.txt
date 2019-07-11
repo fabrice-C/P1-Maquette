@@ -1,3 +1,13 @@
+11/07/2019
+>>> Ajout ligne de séparation avant élément navigation
+
+>>> ajout box avec ombre portée
+rem : trait de séparation et ombre portée sur toute la largeur : non solutionné
+
+>>> MAJ commentaires et enregistrement sous GitHub
+
+
+
 10/07/2019
 >>> Mise à jour des fichiers HTML et CSS
 
