@@ -1,3 +1,9 @@
+12/07/2019
+>>> Refonte complète :
+> pour ligne de séparation en haut après header
+> Mise à jour footer sur toute la largeur
+> Remise en page globale avec pourcentage
+
 11/07/2019
 >>> Ajout ligne de séparation avant élément navigation
 
