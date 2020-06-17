@@ -1,6 +1,6 @@
 # P1-Maquette
 
-##Formation Simplon
+###Formation Simplon
 
 ### Projet 1 -  : Découper une maquette en HTML et CSS
 
